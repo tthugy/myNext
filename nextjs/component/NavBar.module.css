@@ -1,0 +1,9 @@
+.link {
+    text-decoration: none;
+    padding: 0 4px;
+}
+
+.active {
+    color: rgb(39, 39, 105);
+    font-weight: bold;
+}
