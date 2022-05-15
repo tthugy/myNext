@@ -1,9 +1,10 @@
 import NavBar from "../component/NavBar";
+import Layout from "../component/Layout";
 
 
 export default function App({ Component, pageProps }){
     return (
-        <>
+        <Layout>
             <NavBar />
             <Component {...pageProps} />
             <span>hello</span>
@@ -22,6 +23,6 @@ export default function App({ Component, pageProps }){
                 font-weight: bold;
             }
             `}</style>
-        </>
+        </Layout>
     )
 }
