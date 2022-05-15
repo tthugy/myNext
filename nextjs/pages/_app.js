@@ -1,11 +1,9 @@
-import NavBar from "../component/NavBar";
 import Layout from "../component/Layout";
 
 
 export default function App({ Component, pageProps }){
     return (
         <Layout>
-            <NavBar />
             <Component {...pageProps} />
             <span>hello</span>
             <style jsx global>{`

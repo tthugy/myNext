@@ -1,9 +1,9 @@
-import { Children } from "react/cjs/react.production.min";
 import NavBar from "./NavBar";
 
-export default function Layout( children ){
+export default function Layout({ children }){
     return (
         <>
+          <NavBar />
           <div>{children}</div>
         </>
     )
