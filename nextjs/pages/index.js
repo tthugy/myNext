@@ -20,7 +20,7 @@ export default function Home(){
     return (
         <div className="cont">
             <Seo title="Home" />
-            {!movies && <h4>Loading...</h4>}
+            {!movies && <h4>Loading...🫥</h4>}
             {movies?.map((movie) => (
                 <div className="movie" key={movie.id}>
                     <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} />
